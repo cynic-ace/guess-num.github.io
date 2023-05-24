@@ -1,0 +1,40 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  height: 100vh;
+  background: linear-gradient(#222, #333, #444);
+  color: #fff;
+  /* border: 2px solid wheat; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+h1 {
+  color: aqua;
+  text-align: center;
+  font-size: 30px;
+}
+.form input[type="number"] {
+  width: 200px;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    display: block;
+    margin: 50px auto;
+  }
+}
